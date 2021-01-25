@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: black !important; */
+  /* color: white; */
+  font-family: 'Poppins', sans-serif;
+}
+.l1 {
+  background-color: black !important;
+  background-image: url("https://cutewallpaper.org/21/gif-black-background/Pin-on-Super-gif.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+.ml4 {
+  position: relative;
+  font-weight: 900;
+  font-size: 4.5em;
+  color: white;
+}
+.ml4 .letters {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 50%;
+  bottom: 50%;
+  right: 0;
+  opacity: 0;
+}
+.main-content{
+  z-index: 0 !important;
+  display: none;
+  overflow-x: hidden;
+}
+
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+header:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.05);
+    z-index: 25;
+}
+
+.mountain1{
+    position: absolute;
+    bottom: -100px;
+    width: 1500px;
+    right: 0;
+    z-index: 19;
+}
+
+.person{
+    position: absolute;
+    width: 650px;
+    bottom: -100px;
+    left: -70px;
+    z-index: 20;
+}
+
+.mountain2{
+    position: absolute;
+    width: 1100px;
+    bottom: -100px;
+    left: 0;
+    z-index: 18;
+}
+
+.mountain3{
+    position: absolute;
+    width: 900px;
+    bottom: 150px;
+    right: 0;
+    z-index: 17;
+}
+
+.sky{
+    position: absolute;
+    width: 2100px;
+    bottom: 250px;
+    right: 0;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    z-index: 30;
+    background: linear-gradient(to bottom, rgba( 0, 0, 0, 0.05), transparent)
+}
+
+nav .container_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: #fff;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.logo span{
+    font-weight: 300;
+}
+
+
+
+.big-title{
+    position: absolute;
+    z-index: 30;
+    line-height: 4rem;
+    top: calc(50% - 2rem);
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+section{
+    width: 100%;
+    background-color: #151515;
+    position: relative;
+}
+
+
+
+section img{
+    width: 98%;
+}
+
+
+
+.content{
+    color: #fff;
+    transform: translateY(-50px);
+}
+
+
+
+.title{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: .5rem;
+    position: relative;
+}
+
+.border{
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+}
+
+.shadow{
+    position: absolute;
+    bottom: 100%;
+    height: 300px;
+    width: 100%;
+    left: 0;
+    z-index: 20;
+    background: linear-gradient(to top, #151515, transparent);
+}
+
+.opacity{
+    opacity: 0;
+}
+
+
+@media(max-width: 600px){
+    .big-title{
+        font-size: 3rem
+    }
+
+    .text{
+        font-size: .8rem;
+    }
+
+    .title{
+        font-size: 1.2rem;
+    }
+}
